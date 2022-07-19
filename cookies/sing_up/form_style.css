@@ -1,0 +1,22 @@
+.hint{
+    display: block;
+    color: dimgray;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-left: 15px
+}
+
+input[type=text]{
+    width: 85%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=password]{
+    width: 85%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

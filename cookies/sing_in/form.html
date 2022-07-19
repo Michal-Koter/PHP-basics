@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+</head>
+<body>
+    <fieldset style="height: 200px; width: 250px">
+        <h2 style="margin-left: 70px">Logowanie</h2>
+        <form method="post" action="login.php">
+            <label for="login">Login:</label>
+            <input type="text" required name="login" id="login" maxlength="55" placeholder="login"
+                   style="width: 170px; height: 20px; margin-left: 5px;margin-bottom: 5px">
+            <br>
+            <label for="password">Hasło:</label>
+            <input type="password" required name="password" id="password" placeholder="*****"
+                   style="width: 170px; height: 20px; margin-left: 6px">
+            <input type="submit" name="submit" id="submit" value="WYŚLIJ"
+                   style="margin-top: 20px;margin-bottom: 10px; margin-left: 90px">
+        </form>
+    </fieldset>
+</body>
+</html>

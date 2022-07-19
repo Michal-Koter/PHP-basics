@@ -1,0 +1,15 @@
+.sub{
+    height: 80px;
+    width: 200px;
+    font-size: xx-large;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+input[id=yes]{
+    background-color: limegreen;
+}
+
+input[id=no]{
+    background-color: tomato;
+}

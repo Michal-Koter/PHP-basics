@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+</head>
+<body>
+    <form action="contact.php" method="get">
+        <fieldset>
+            <legend>Contact form</legend>
+            <ul>
+                <li>
+                    <label for="name">Full name *</label>
+                    <input type="text" required name="name" id="name" placeholder="Your full name" maxlength="55" >
+                </li>
+                <li>
+                    <label for="e-mail">E-mail*</label>
+                    <input type="text" required name="e-mail" id="e-mail" placeholder="Your e-mail" maxlength="55" >
+                </li>
+                <li>
+                    <label for="phoneNumber">Contact number</label>
+                    <input type="tel" name="your number" id="phoneNumber" placeholder="Your phone" pattern="[0-9]{9}">
+                </li>
+                <li>
+                    <label for="topic">Chose the topic *</label>
+                    <select required name="topic" id="topic" placeholder="Chose the topic" >
+                        <option value="1">topic 1</option>
+                        <option value="2">topic 2</option>
+                        <option value="3">topic 3</option>
+                        <option value="4">topic 4</option>
+                        <option value="5">topic 5</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="message">Message content*</label>
+                    <textarea required name="message" id="message" placeholder="your massage"></textarea>
+                </li>
+                <br>
+                <li>
+                    <label>Prefer form of contact</label>
+                    <ul>
+                        <br>
+                        <li>
+                            <input type="checkbox" name="contact1" id="contact1" placeholder="E-amil" autocomplete="on">
+                            <label for="contact1">E-mail</label><br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="contact2" id="contact2" placeholder="telephone" autocomplete="on">
+                            <label for="contact2">Telephone</label><br>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <label>Have you website?</label>
+                    <ul>
+                        <br>
+                        <li>
+                            <input type="radio" name="website" id="websiteYes" value="Yes">
+                            <label for="websiteYes">Yes</label><br>
+                        </li>
+                        <li>
+                            <input type="radio" name="website" id="websiteNo" value="No">
+                            <label for="websiteNo">No</label><br>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <label>File<br><br></label>
+                    <input type="file" name="file" id="file">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" name="sand" id="sand" value="Sand form">
+    </form>
+</body>
+</html>

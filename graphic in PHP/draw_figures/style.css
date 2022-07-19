@@ -1,0 +1,48 @@
+fieldset[id="main"]{
+    width: 200px;
+    height: 370px;
+}
+
+fieldset[id="circle"]{
+    width: 200px;
+    height: 170px;
+}
+
+fieldset[id="rec"]{
+    width: 200px;
+    height: 290px;
+}
+
+fieldset[id="line"]{
+    width: 200px;
+    height: 290px;
+}
+
+fieldset[id="polygon"]{
+    width: 200px;
+    height: 150px;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+h{
+    font-size: large;
+    font-style: italic;
+}
+
+input[type="number"]{
+    width: 70%;
+    margin-left: 15%;
+}
+
+input[type="submit"]{
+    margin-left: 35%;
+}
+
+input[list]{
+    margin-left: 5%;
+}
+
+t{margin-left: 10%}

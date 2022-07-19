@@ -1,0 +1,23 @@
+fieldset{
+    width: 200px;
+    height: 330px;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+h{
+    font-size: large;
+    font-style: italic;
+}
+
+input[type="number"]{
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+input[type="submit"]{
+    margin-left: 35%;
+}
